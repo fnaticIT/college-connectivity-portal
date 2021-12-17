@@ -1,0 +1,125 @@
+.sidebar {
+  flex: 2.4;
+  height: calc(100vh);
+  overflow-y: scroll;
+  position: sticky;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #b9bbbd;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(143, 232, 238);
+}
+
+.sidebarIcon {
+  color: rgb(135, 210, 240);
+}
+
+.sidebarHr {
+  margin: 20px 0;
+}
+
+.name {
+  margin-top: 10px;
+  margin-left: 44px;
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(135, 210, 240);
+}
+
+.side {
+  font-weight: bold;
+  font-size: 10px;
+  color: rgb(135, 210, 240);
+}
+.sidebarListItem {
+  margin-top: 10px;
+}
+.sidename {
+  margin-left: 10px;
+  font-size: 18px;
+  color: rgb(135, 210, 240);
+}
+@media screen and (max-width: 800px) {
+  .sidename {
+    margin-left: 0px;
+    font-size: 11px;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .sidename {
+    margin-left: 0px;
+    font-size: 13px;
+  }
+}
+.side:hover {
+  color: azure;
+}
+
+.headside {
+  font-size: 24px;
+  color: rgb(135, 210, 240);
+}
+
+.rightbarFollowingImg {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.rightbarFollowingImg:hover {
+  color: white;
+}
+
+.rightbarFollowing2 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 16px -8px #00cccc;
+  box-shadow: 0px 0px 36px -8px #00cccc;
+}
+
+.sidebarListItem2 {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px #00cccc;
+  box-shadow: 0px 0px 36px -8px #00cccc;
+}
+.sidebarButton {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 200px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 1500;
+}
+
+.simg {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  height: 1000px;
+}
+
+.box {
+  margin-bottom: 15px;
+}
+
+.name {
+  margin-left: 60px;
+}
+
+.eventsd:hover {
+  background-color: rgba(0, 0, 0,0.1);
+  cursor: pointer;
+}
